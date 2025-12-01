@@ -1,56 +1,35 @@
-Student Result Management System (Java – Exception Handling)
+# Student Result Management System  
+### *(Java — Exception Handling Project)*  
 
-This project is a Java-based Student Result Management System that demonstrates extensive use of exception handling, including built-in exceptions, custom exceptions, input validation, and safe user interaction using try-catch-finally blocks.
-The system allows users to add students, validate marks, store multiple students, and display complete result reports.
+A Java-based console application that demonstrates exception handling, custom exceptions, input validation, and OOP concepts.  
+The system allows adding students, validating marks, storing records, and displaying results with proper error handling.
 
-Features
+---
 
-Add a student with:
+## Features  
 
-Roll Number
+-  Add a student with roll number, name, and marks  
+-  Validates marks (0–100) using a **custom exception**  
+-  Calculates average  
+-  Determines Pass/Fail  
+-  View student details using roll number  
+-  Handles:  
+  - `InvalidMarksException`  
+  - `InputMismatchException`  
+  - `IllegalArgumentException`  
+  - Other runtime errors  
 
-Name
+---
 
-Marks for 3 subjects
+## Technologies Used  
+- Java  
+- OOP  
+- Custom Exceptions  
+- Exception Handling  
 
- Validate marks (0–100) using a custom exception
- Prevent duplicate roll numbers
- Calculate average marks and determine Pass/Fail
- Show student details using roll number
- Handles multiple runtime errors safely:
+---
 
-InvalidMarksException
+# Author
 
-InputMismatchException
+Vanshika Dubey
 
-IllegalArgumentException
-
-Unexpected errors
-
- Uses:
-
-throw
-
-throws
-
-try-catch-finally
-
-arrays to store student objects
-
- Clean termination with resource closing (Scanner closed)
- 
- Learning Outcomes
-
-By using this project, you will learn:
-
-How to apply exception handling to real-world applications
-
-Differentiating checked and unchecked exceptions
-
-Designing custom exception classes
-
-Validating user inputs safely
-
-Using arrays to store objects
-
-Applying OOP principles and robust program structure
